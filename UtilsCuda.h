@@ -25,7 +25,7 @@
 
 // #define CUD_C(stmt) do { 
 //     stmt;
-//     gpuAssert(#stmt, __FILE__, __LINE__);	\
+//     gpuAssert(#stmt, __FILE__, __LINE__);	
 // } while (0)
 inline void gpuAssert(const char* stmt, const char* fname, int line)
 {
